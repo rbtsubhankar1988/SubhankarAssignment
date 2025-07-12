@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:ui": "npx playwright test tests/uiTestScenarios.spec.js",
+    "test:api": "npx playwright test tests/apiTestScenarios.spec.js",
+    "test:all": "npm run test:ui && npm run test:api"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
