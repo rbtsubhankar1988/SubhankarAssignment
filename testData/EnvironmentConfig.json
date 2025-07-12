@@ -1,0 +1,17 @@
+{
+    "QA":{
+        "URL":"https://parabank.parasoft.com",
+        "userName":"",
+        "password":""
+    },
+    "UAT":{
+        "URL":"https://parabank.parasoft.com",
+        "userName":"",
+        "password":""
+    },
+    "PROD":{
+        "URL":"https://parabank.parasoft.com",
+        "userName":"",
+        "password":""
+    }
+}
